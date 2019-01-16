@@ -1,0 +1,23 @@
+{
+  "name": "hugo-boilerplate",
+  "version": "1.0.0",
+  "description": "## Quick Start 1. Build your site with `hugo serve -D` and see the result at `http://localhost:1313/`. 2. run `gulp watch` to compile js files 3. add js files in js/ 4. add scss files in assets/scss",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-gzip": "^1.4.2",
+    "gulp-watch": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.gooddogdesign.com:gooddog/hugo-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

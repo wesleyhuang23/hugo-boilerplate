@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "elements/head.html" . }}
+
+  {{ .Scratch.Set "scope" "homepage" }}
+  {{ if .Params.slug }}
+    {{ .Scratch.Set "scope" .Params.slug }}
+  {{end}}
+
+  <body id="{{ .Scratch.Get "scope" }}">
+    <main class="wrapper">
+      {{ partial "elements/header.html" . }}
+
+      <div class="content">
+        {{ block "content" . }}{{ end }}
+      </div>
+
+      {{ partial "elements/footer.html" . }}
+    </main>
+
+    {{ partial "elements/footerScripts.html" . }}
+  </body>
+</html>
