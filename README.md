@@ -1,4 +1,4 @@
-# Good Dog Hugo Boilerplate
+# Hugo Boilerplate
 
 ## Quick Start
 1. Build your site with `hugo serve -D` and see the result at `http://localhost:1313/`.
